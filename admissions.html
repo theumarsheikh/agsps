@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admissions - A.G. Public School</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <img src="images/logo.png" alt="A.G. Public School Logo">
+                <div class="logo-text">
+                    <h1>A.G. Public School</h1>
+                    <p>Excellence in Education Since 1985</p>
+                </div>
+            </div>
+            <nav class="nav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="academics.html">Academics</a></li>
+                    <li><a href="admissions.html" class="active">Admissions</a></li>
+                    <li><a href="student-life.html">Student Life</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="portal-login.html" class="btn-login">Portal Login</a></li>
+                </ul>
+            </nav>
+            <div class="mobile-menu">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <section class="page-header">
+        <div class="container">
+            <h1>Admissions</h1>
+            <p>Begin Your Journey of Excellence with A.G. Public School</p>
+        </div>
+    </section>
+
+    <section class="admission-process">
+        <div class="container">
+            <h2>Admission Process</h2>
+            <div class="process-steps">
+                <div class="step">
+                    <div class="step-number">1</div>
+                    <h3>Inquiry & Application</h3>
+                    <p>Submit the online inquiry form or visit the school admission office</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <h3>Entrance Assessment</h3>
+                    <p>Appear for the entrance test and interaction session</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">3</div>
+                    <h3>Document Verification</h3>
+                    <p>Submit required documents for verification</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">4</div>
+                    <h3>Fee Payment & Enrollment</h3>
+                    <p>Complete the admission formalities and fee payment</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="eligibility">
+        <div class="container">
+            <h2>Eligibility Criteria</h2>
+            <div class="eligibility-table">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Grade</th>
+                            <th>Minimum Age</th>
+                            <th>Previous Class Requirement</th>
+                            <th>Assessment</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Nursery</td>
+                            <td>3+ years</td>
+                            <td>-</td>
+                            <td>Interaction</td>
+                        </tr>
+                        <tr>
+                            <td>Grade 1</td>
+                            <td>6+ years</td>
+                            <td>Kindergarten</td>
+                            <td>Basic Skills Test</td>
+                        </tr>
+                        <tr>
+                            <td>Grades 2-5</td>
+                            <td>As per grade</td>
+                            <td>Previous grade completion</td>
+                            <td>English & Math Test</td>
+                        </tr>
+                        <tr>
+                            <td>Grades 6-8</td>
+                            <td>As per grade</td>
+                            <td>Previous grade completion</td>
+                            <td>Comprehensive Test</td>
+                        </tr>
+                        <tr>
+                            <td>Grades 9-12</td>
+                            <td>As per grade</td>
+                            <td>Previous grade completion</td>
+                            <td>Stream-specific Test</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <section class="inquiry-form">
+        <div class="container">
+            <h2>Online Inquiry Form</h2>
+            <form class="admission-form">
+                <div class="form-group">
+                    <label for="student-name">Student's Name *</label>
+                    <input type="text" id="student-name" name="student-name" required>
+                </div>
+                <div class="form-group">
+                    <label for="grade">Grade Applying For *</label>
+                    <select id="grade" name="grade" required>
+                        <option value="">Select Grade</option>
+                        <option value="nursery">Nursery</option>
+                        <option value="grade1">Grade 1</option>
+                        <option value="grade2">Grade 2</option>
+                        <option value="grade3">Grade 3</option>
+                        <option value="grade4">Grade 4</option>
+                        <option value="grade5">Grade 5</option>
+                        <option value="grade6">Grade 6</option>
+                        <option value="grade7">Grade 7</option>
+                        <option value="grade8">Grade 8</option>
+                        <option value="grade9">Grade 9</option>
+                        <option value="grade10">Grade 10</option>
+                        <option value="grade11">Grade 11</option>
+                        <option value="grade12">Grade 12</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="dob">Date of Birth *</label>
+                    <input type="date" id="dob" name="dob" required>
+                </div>
+                <div class="form-group">
+                    <label for="parent-name">Parent/Guardian Name *</label>
+                    <input type="text" id="parent-name" name="parent-name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email Address *</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="phone">Phone Number *</label>
+                    <input type="tel" id="phone" name="phone" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Additional Information</label>
+                    <textarea id="message" name="message" rows="4"></textarea>
+                </div>
+                <button type="submit" class="btn-primary">Submit Inquiry</button>
+            </form>
+        </div>
+    </section>
+
+    <section class="fee-structure">
+        <div class="container">
+            <h2>Fee Structure 2024-25</h2>
+            <div class="fee-table">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Grade</th>
+                            <th>Annual Tuition Fee</th>
+                            <th>Admission Fee</th>
+                            <th>Development Fee</th>
+                            <th>Total Annual Fee</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Nursery - Grade 2</td>
+                            <td>₹45,000</td>
+                            <td>₹10,000</td>
+                            <td>₹5,000</td>
+                            <td>₹60,000</td>
+                        </tr>
+                        <tr>
+                            <td>Grade 3 - Grade 5</td>
+                            <td>₹50,000</td>
+                            <td>₹10,000</td>
+                            <td>₹5,000</td>
+                            <td>₹65,000</td>
+                        </tr>
+                        <tr>
+                            <td>Grade 6 - Grade 8</td>
+                            <td>₹55,000</td>
+                            <td>₹10,000</td>
+                            <td>₹5,000</td>
+                            <td>₹70,000</td>
+                        </tr>
+                        <tr>
+                            <td>Grade 9 - Grade 10</td>
+                            <td>₹60,000</td>
+                            <td>₹10,000</td>
+                            <td>₹5,000</td>
+                            <td>₹75,000</td>
+                        </tr>
+                        <tr>
+                            <td>Grade 11 - Grade 12</td>
+                            <td>₹65,000</td>
+                            <td>₹10,000</td>
+                            <td>₹5,000</td>
+                            <td>₹80,000</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="fee-download">
+                <a href="assets/brochure.pdf" class="btn-secondary" download>
+                    <i class="fas fa-download"></i> Download Detailed Brochure
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section class="important-dates">
+        <div class="container">
+            <h2>Important Dates</h2>
+            <div class="dates-list">
+                <div class="date-item">
+                    <div class="date">January 15, 2024</div>
+                    <div class="event">Admission Process Begins</div>
+                </div>
+                <div class="date-item">
+                    <div class="date">March 31, 2024</div>
+                    <div class="event">Last date for application submission</div>
+                </div>
+                <div class="date-item">
+                    <div class="date">April 15-30, 2024</div>
+                    <div class="event">Entrance Assessments</div>
+                </div>
+                <div class="date-item">
+                    <div class="date">May 15, 2024</div>
+                    <div class="event">First list of selected candidates</div>
+                </div>
+                <div class="date-item">
+                    <div class="date">June 1-15, 2024</div>
+                    <div class="event">Fee payment and document submission</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Contact Info</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> 123 Education Street, City, State 12345</p>
+                    <p><i class="fas fa-phone"></i> +91 98765 43210</p>
+                    <p><i class="fas fa-envelope"></i> info@agpublicschool.edu</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="academics.html">Academics</a></li>
+                        <li><a href="admissions.html">Admissions</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Follow Us</h3>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 A.G. Public School. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
